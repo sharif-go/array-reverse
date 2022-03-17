@@ -1,10 +1,11 @@
 <?php
+print_r(arrayReverse([1,2,3,4,5,6]));
 /*
  * @param array
  *
  * @return array
  * */
-function arrayReverse($arr):array{
+function arrayReverse(array $arr):array{
     $output = [];
     $array_len = count($arr);
 
