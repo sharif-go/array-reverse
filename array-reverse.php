@@ -12,5 +12,5 @@ function arrayReverse(array $arr):array{
     for ($i = $array_len - 1; $i >=0; $i--){
         array_push($output, $arr[$i]);
     }
-    return $output;
+    return $output;ijuij
 }
